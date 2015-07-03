@@ -1,3 +1,10 @@
+/*
+ * The skyline problem is described here: https://uva.onlinejudge.org/external/1/p105.pdf
+ * 
+ * It takes me 3 and half hour to finish e2e :(
+ */
+
+
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.TreeMap;
