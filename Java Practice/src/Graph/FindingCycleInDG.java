@@ -4,13 +4,14 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 /*
- * Problem to solve: Given a set of directed edges represented with Strings of start and the end vertexes ("start", "end"),
- * 		1. Create a graph
- * 		2. Find if the graph is cycle
+ * Problem to solve: 
+ * 		1. Build a directed graph edge by edge
+ * 		2. Each edge is represented with a pair of strings representing the start and the end vertices respectively.
+ * 		3. Find if the graph is cyclic
  */
 public class FindingCycleInDG {
 	/*
-	 * Test harness
+	 * Test Harness
 	 */
 	public static void main(String[] args) {
 		Graph g = new Graph();
