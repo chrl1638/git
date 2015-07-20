@@ -13,11 +13,17 @@ public class AcceptanceMachine {
 				{"C", "D", "A", "A"} 
 		};
 		
-		AcceptanceMachine am = new AcceptanceMachine("AB", tMatrix);
+		AcceptanceMachine am = new AcceptanceMachine("ABD", tMatrix);
 		
 		String testString = "ABBCD";
 		
-		System.out.println("Does the machine accept (" + testString + ")? " + am.accept(testString));
+		try {
+			System.out.println("Does the machine accept (" + testString + ")? " + am.accept(testString));
+		} catch (Exception e) {
+			System.out.println("This code in not built for bullet proof yet. It expects the input is well prepared and follows certain contstains.");
+			System.out.println(e);
+			
+		}
 	}
 	
 
