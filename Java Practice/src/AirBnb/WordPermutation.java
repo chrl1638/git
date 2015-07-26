@@ -5,7 +5,7 @@ package AirBnb;
 
 import java.util.ArrayList;
 
-public class WorkPermutation {
+public class WordPermutation {
 
 	public static void main(String[] args) {
 		String word = "test";
